@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:auto;
+	height:auto;
+	background:url(Imagenes/684520.jpg);
+}
+
+h1{
+	color:#999;
+	text-align:center;
+}
+#logo{
+	border:none;
+	margin:none;
+	display:inline;
+	float:left;
+	margin:auto;
+}
+h3{
+	color:#CCC;
+	display:inline;
+	margin:auto;
+	box-shadow:#CCC 1px 1px 3px 3px;
+}
+#arfaar{
+	float:right;
+	display:block;
+}
+
+p{
+	color:#CCC;
+}
+#reglas{
+	color:#F00;
+	font-size:1.3em;
+	text-shadow:#CCC 5px 1px 7px;
+}
+
+a{
+	color:#F00;
+}
+
+#fundador{
+	color:#00F;
+}
