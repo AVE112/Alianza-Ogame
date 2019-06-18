@@ -14,11 +14,11 @@ body{
 
 h2{
 	color:#999;
-	font-size:2.0em;
+	font-size:1.5em;
 }
 
 h4{
-	font-size:1.9em;
+	font-size:1.3em;
 	text-shadow:#00F 2px 2px;
 }
 p{
@@ -29,7 +29,7 @@ p{
 }
 
 h1{
-	font-size:3.5em;
+	font-size:2.5em;
 	text-align:center;
 	color:#666;
 }
