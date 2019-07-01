@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	margin:auto 2%;
+	width:auto;
+	height:auto;
+	background:url(Imagenes/187861.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+#general{
+	box-sizing:border-box;
+}
+
+h1{
+	margin-top: 9px;
+	display:block;
+	color:#CCC;
+	text-shadow:#F00 8px 2px 5px;
+	font-size:2.3em;
+	position:static;
+	text-align:center;
+}
+
+h2{
+	color:#FFF;
+}
+
+h4{
+	margin:2% 2%;
+	color:#FFF;
+	font-size:1.3em;
+}
+
+h3{
+	font-size:1.9;
+}
+
+#isquierda{
+	margin:0px auto 5px;
+	display:inline;
+	float:left;
+	width:97%;
+}
+
+#derecha{
+	margin:0px auto 5px;;
+	display:inline;
+	float:left;
+	width:97%;
+}
+
+section{
+	/*max-height:30%;*/
+}
+#contenido{
+	overflow-y: scroll;
+	border:solid #F00;
+	margin:3% auto 5%;
+	width:70%;
+	/*height:40%;*/
+	max-height:370px;
+	display:inline;
+	color:#FFF;
+	float:left;
+	padding:1%;
+	text-shadow:#00F 1px 1px 2px;
+	color:#FFF;
+}
+.contenido::-webkit-scrollbar{
+	width:5px;
+	background:none;
+}
+
+.contenido::-webkit-scrollbar-thumb{
+	background:#00F;
+	width:7px;
+}
+#juego{
+	display:inline;
+	color:#CCC;
+	font-size:1.3em;
+	float:left;
+	width:19%;
+	margin: 0 2%;
+}
+p{
+	font-size:1.4em;
+	margin:7px;
+	border-bottom:dashed #999;
+	color:#0F0;
+}
